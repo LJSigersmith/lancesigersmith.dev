@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lance Sigersmith</title>
+
+  <!-- Google Fonts (JetBrains Mono for IDE vibe) -->
+  <link href="Lance%20Sigersmith_files/css2_NIT_.css" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="Lance%20Sigersmith_files/all.min_NIT_.css">
+  <link rel="stylesheet" href="Lance%20Sigersmith_files/styles_NIT_.css">
+</head>
+
+<body>
+
+  <!-- DARK MODE TOGGLE -->
+  <div class="dark-toggle" onclick="toggleTheme()">🌙 Dark Mode</div>
+
+  <!-- HERO HEADER -->
+  <header>
+    <h1>Lance Sigersmith</h1>
+    <p class="subtitle">Software Engineer I @ Stanley Black &amp; Decker | M.S. CS, Quinnipiac University</p>
+    <img src="Lance%20Sigersmith_files/1752851378235-2_NIT_.jpg" class="profile-pic" alt="Profile Photo">
+
+    <div class="social-icons" style="margin-top: 10px;">
+      <a href="https://www.linkedin.com/in/lance-sigersmith-09b46515a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/LJSigersmith" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </header>
+
+  <!-- STICKY NAV -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I'm a Software Engineer at Stanley Black &amp; Decker focused on mobile development, building Android
+        applications for IoT and connected tool ecosystems. I hold a B.S. in Computer Science from UConn
+        and an M.S. in Computer Science from Quinnipiac University (GPA 4.0).
+        I also contribute to open source, most recently to the Scribe language-learning keyboard project.
+      </p>
+    </div>
+  </div>
+
+  <div class="section" id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Software Engineer I — Stanley Black &amp; Decker</h3>
+      <p><strong>May 2026 – Present</strong> · New Britain, CT</p>
+      <ul>
+        <li>Developed an Android application featuring BLE scanning and real-time data collection from Bluetooth devices.</li>
+        <li>Integrated existing API with Android application to enable cloud data ingestion and authentication.</li>
+        <li>Rapidly acquired Android and Kotlin proficiency by 
+leveraging Cursor AI to accelerate development and ship production-ready
+ features within 6 months.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag lang">Kotlin</span>
+        <span class="tag sys">Android</span>
+        <span class="tag sys">BLE</span>
+        <span class="tag framework">AWS</span>
+        <span class="tag framework">Jetpack Compose</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Software Engineering Intern — Stanley Black &amp; Decker</h3>
+      <p><strong>June 2025 – May 2026</strong> · New Britain, CT</p>
+      <ul>
+        <li>Evaluated AWS Greengrass Nucleus Lite for integration with 
+existing IoT infrastructure and as a replacement for legacy components.</li>
+        <li>Developed and deployed Greengrass components written in C, 
+including components with MQTT messaging, OTA A/B updates, and remote 
+SSH capability.</li>
+        <li>Assisted with converting legacy MySQL queries into 
+PostgreSQL-compatible equivalents, resolving schema mismatches and 
+updating prepared statements.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag lang">C</span>
+        <span class="tag framework">AWS Greengrass</span>
+        <span class="tag framework">AWS IoT Core</span>
+        <span class="tag sys">Embedded Linux</span>
+        <span class="tag sys">MQTT</span>
+        <span class="tag sys">RAUC</span>
+        <span class="tag sys">SWUpdate</span>
+        <span class="tag sys">Raspberry Pi</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Open Source Contributor — Scribe (scribe-org)</h3>
+      <p><strong>March 2026 – Present</strong></p>
+      <ul>
+        <li>Implemented a colon-triggered emoji autocomplete feature for
+ the Scribe-Android custom keyboard (Kotlin/IME API), adding 
+prefix-matched emoji suggestions via SQLite lookup with adaptive slot 
+counts for phone and tablet.</li>
+        <li>Traced missing emoji keyword data end-to-end across three 
+repositories (Scribe-Android, Scribe-Data, Scribe-Server), identifying a
+ missing PyICU dependency and a broken table name lookup in the Go/Gin 
+API server.</li>
+        <li>Contributed across the full language data pipeline from 
+Unicode CLDR ingestion and SQLite generation through REST API to Android
+ keyboard, with concurrent setup of Android Studio, Python, and Go 
+toolchains.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag lang">Kotlin</span>
+        <span class="tag lang">Python</span>
+        <span class="tag sys">Android</span>
+        <span class="tag sys">SQLite</span>
+        <span class="tag framework">IME API</span>
+        <span class="tag concept">Open Source</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/Scribe-Android" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+  </div>
+
+  <div class="section" id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <div class="edu-card">
+        <img src="Lance%20Sigersmith_files/qu_NIT_.png" alt="Quinnipiac University logo" class="edu-logo" loading="lazy">
+        <div>
+          <h3>Quinnipiac University</h3>
+          <p><strong>M.S. Computer Science</strong></p>
+          <p>January 2025 – May 2026 · GPA: 4.0</p>
+          <p><em>Faculty Award for Academic Excellence</em></p>
+          <p class="coursework-label">Relevant Coursework:</p>
+          <ul class="coursework-list">
+            <li>Computer Networks</li>
+            <li>Operating Systems</li>
+            <li>Embedded Systems</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="edu-card">
+        <img src="Lance%20Sigersmith_files/uconn_NIT_.png" alt="University of Connecticut logo" class="edu-logo" loading="lazy">
+        <div>
+          <h3>University of Connecticut</h3>
+          <p><strong>B.S. Computer Science</strong>, Concentration in Software Design and Development</p>
+          <p>August 2019 – May 2023</p>
+          <p class="coursework-label">Relevant Coursework:</p>
+          <ul class="coursework-list">
+            <li>Systems Programming in C</li>
+            <li>Algorithms and Complexity</li>
+            <li>Data Structures</li>
+            <li>Principles of Databases</li>
+            <li>Applied Cryptography and Cybersecurity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Projects</h2>
+
+    <!-- Rotunda -->
+    <div class="card">
+      <h3>Rotunda — TypeScript / Kotlin / Android</h3>
+      <p>A political intelligence platform ingesting data from 8+ 
+federal government APIs (Congress.gov, CourtListener, Federal Register, 
+roll call feeds) via a fault-tolerant Node.js pipeline, deployed on 
+Raspberry Pi with PostgreSQL and Redis. Indexes 20,000+ bills and 500+ 
+congressional members across two terms. Includes a native Android client
+ built with Kotlin and Jetpack Compose that consumes the backend REST 
+API with real-time updates.</p>
+      <div class="tags">
+        <span class="tag lang">TypeScript</span>
+        <span class="tag lang">Kotlin</span>
+        <span class="tag framework">Node.js</span>
+        <span class="tag framework">Jetpack Compose</span>
+        <span class="tag sys">Android</span>
+        <span class="tag sys">PostgreSQL</span>
+        <span class="tag sys">Redis</span>
+        <span class="tag sys">Raspberry Pi</span>
+        <span class="tag concept">REST API</span>
+      </div>
+    </div>
+
+    <!-- TwoFactorLock -->
+    <div class="card">
+      <h3>Two-Factor Lock — C / Embedded Systems</h3>
+      <p>An embedded security system final project implementing two-factor authentication on constrained hardware, written in C.</p>
+      <div class="tags">
+        <span class="tag lang">C</span>
+        <span class="tag sys">Embedded Systems</span>
+        <span class="tag concept">Security</span>
+        <span class="tag concept">Authentication</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/TwoFactorLock" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+
+  <!-- Multiplayer Networked Trivia Game -->
+    <div class="card">
+      <h3>Multiplayer Networked Trivia Game — Java</h3>
+      <p>A full client–server trivia game written in Java using both TCP
+ and UDP. The server maintains global game state, manages multiple 
+concurrent players via handler threads, and broadcasts updates. The 
+client provides a Swing‑based GUI and communicates using a custom 
+message protocol.</p>
+      <div class="tags">
+        <span class="tag lang">Java</span>
+        <span class="tag sys">TCP</span>
+        <span class="tag sys">UDP</span>
+        <span class="tag concept">Client–Server</span>
+        <span class="tag concept">Multithreading</span>
+        <span class="tag framework">Swing GUI</span>
+        <span class="tag concept">Custom Protocol</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/project2-trivia" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+
+    <!-- Shape Drawing GUI -->
+    <div class="card">
+      <h3>Shape Drawing GUI — C++ / Allegro</h3>
+      <p>A graphical drawing tool built using the Allegro framework 
+featuring draggable shapes, text rendering, event‑driven input handling,
+ and an object‑oriented rendering pipeline.</p>
+      <div class="tags">
+        <span class="tag lang">C++</span>
+        <span class="tag framework">Allegro</span>
+        <span class="tag concept">GUI</span>
+        <span class="tag concept">Event Handling</span>
+        <span class="tag concept">OOP</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/coursework-allegro-gui" target="_blank" rel="noopener"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+
+    <!-- Distributed File Synchronization System -->
+    <div class="card">
+      <h3>Distributed File Synchronization System — Java</h3>
+      <p>A Java client–server system enabling multi‑client file 
+synchronization. A centralized server tracks metadata and distributes 
+updates, while clients maintain mirrored folders using TCP messaging, 
+concurrency control, and file‑state reconciliation.</p>
+      <div class="tags">
+        <span class="tag lang">Java</span>
+        <span class="tag concept">Client–Server</span>
+        <span class="tag sys">TCP</span>
+        <span class="tag sys">File Sync</span>
+        <span class="tag concept">Concurrency</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/client-server-network" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+    
+
+    <!-- Magic Mirror Module -->
+    <div class="card">
+      <h3>Magic Mirror HealthKit Integration — Node.js / JavaScript</h3>
+      <p>A MagicMirror² module displaying activity, health, and movement
+ data. Features a modular architecture with a UI module and a Node.js 
+backend helper. Uses configuration‑driven behavior and clear event‑based
+ messaging within the MagicMirror runtime.</p>
+      <div class="tags">
+        <span class="tag lang">JavaScript</span>
+        <span class="tag framework">Node.js</span>
+        <span class="tag sys">MagicMirror²</span>
+        <span class="tag concept">Modular Design</span>
+        <span class="tag concept">Health Data</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/MMM-HealthKit" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+
+    <!-- Family Chore Manager -->
+    <!--
+    <div class="card">
+      <h3>Family Chore Manager — iOS (Objective‑C)</h3>
+      <p>An Objective‑C iOS app with parent/child accounts, SQL database storage, task approvals, points, and CRUD workflows. Includes role‑based flows and UIKit‑based UI.</p>
+      <div class="tags">
+        <span class="tag lang">Objective-C</span>
+        <span class="tag framework">UIKit</span>
+        <span class="tag sys">SQL</span>
+        <span class="tag concept">CRUD</span>
+      </div>
+    </div>
+    -->
+    
+
+
+    <!-- Bubble Pop Game -->
+    <!--
+    <div class="card">
+      <h3>The Bubble Pop — iOS (Objective‑C)</h3>
+      <p>A fast‑paced arcade game implementing a custom game loop, animated sprites, randomized bubble spawning, and tap‑based gameplay.</p>
+      <div class="tags">
+        <span class="tag lang">Objective-C</span>
+        <span class="tag framework">UIKit</span>
+        <span class="tag concept">Game Loop</span>
+        <span class="tag concept">Animations</span>
+      </div>
+    </div>
+    -->
+
+    <!-- Ecosystem Simulator -->
+    <div class="card">
+      <h3>Ecosystem Life Simulator — C++</h3>
+      <p>A C++ simulation of an evolving ecosystem built on an 
+inheritance‑based class hierarchy. Models movement, predators, feeding, 
+reproduction, and emergent environmental behavior.</p>
+      <div class="tags">
+        <span class="tag lang">C++</span>
+        <span class="tag concept">Inheritance</span>
+        <span class="tag concept">Polymorphism</span>
+        <span class="tag concept">Simulation</span>
+        <span class="tag concept">OOP</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/coursework-ecosystem" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+
+    <!-- Company Database Manager -->
+    <div class="card">
+      <h3>Company Database Manager — Python + SQL</h3>
+      <p>A Python CLI application interacting with a relational 
+database. Supports full CRUD workflows, schema‑aware validation, and 
+table‑relationship management.</p>
+      <div class="tags">
+        <span class="tag lang">Python</span>
+        <span class="tag sys">SQL</span>
+        <span class="tag concept">Relational Design</span>
+        <span class="tag concept">CLI</span>
+        <span class="tag concept">Data Validation</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/coursework-companydb-manager" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+
+    <!-- Polygon Data Structure -->
+    <div class="card">
+      <h3>Polygon Data Structure — C++</h3>
+      <p>A geometric data structure that supports bounding‑box 
+computation, point‑in‑polygon testing, and polygon intersection logic 
+using algorithmic computational geometry.</p>
+      <div class="tags">
+        <span class="tag lang">C++</span>
+        <span class="tag concept">Geometry</span>
+        <span class="tag concept">Data Structures</span>
+        <span class="tag concept">Algorithms</span>
+      </div>
+      <a class="github-pill" href="https://github.com/LJSigersmith/coursework-2D-shapes" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="card" id="skills">
+      <p style="margin:0 0 6px; font-weight:600; font-size:0.85rem; opacity:0.6; text-transform:uppercase; letter-spacing:0.08em;">Languages</p>
+      <div style="margin-bottom:14px;">
+        <span class="tag lang">C</span>
+        <span class="tag lang">C++</span>
+        <span class="tag lang">Java</span>
+        <span class="tag lang">Python</span>
+      </div>
+      <p style="margin:0 0 6px; font-weight:600; font-size:0.85rem; opacity:0.6; text-transform:uppercase; letter-spacing:0.08em;">Mobile</p>
+      <div style="margin-bottom:14px;">
+        <span class="tag framework">Kotlin</span>
+        <span class="tag framework">Android Studio</span>
+        <span class="tag framework">Jetpack Compose</span>
+        <span class="tag framework">Swift</span>
+        <span class="tag framework">Xcode</span>
+      </div>
+      <p style="margin:0 0 6px; font-weight:600; font-size:0.85rem; opacity:0.6; text-transform:uppercase; letter-spacing:0.08em;">Cloud</p>
+      <div style="margin-bottom:14px;">
+        <span class="tag sys">AWS CLI</span>
+        <span class="tag sys">EC2</span>
+        <span class="tag sys">Lambda</span>
+        <span class="tag sys">Greengrass</span>
+        <span class="tag sys">IoT Core</span>
+        <span class="tag sys">S3</span>
+      </div>
+      <p style="margin:0 0 6px; font-weight:600; font-size:0.85rem; opacity:0.6; text-transform:uppercase; letter-spacing:0.08em;">Systems &amp; Protocols</p>
+      <div style="margin-bottom:14px;">
+        <span class="tag sys">Embedded Linux</span>
+        <span class="tag sys">Raspberry Pi</span>
+        <span class="tag sys">MQTT</span>
+        <span class="tag sys">BLE</span>
+        <span class="tag sys">RAUC</span>
+        <span class="tag sys">SWUpdate</span>
+        <span class="tag sys">TCP</span>
+        <span class="tag sys">UDP</span>
+        <span class="tag sys">PostgreSQL</span>
+        <span class="tag sys">SQLite</span>
+      </div>
+      <p style="margin:0 0 6px; font-weight:600; font-size:0.85rem; opacity:0.6; text-transform:uppercase; letter-spacing:0.08em;">Tools</p>
+      <div>
+        <span class="tag concept">Git</span>
+        <span class="tag concept">Jira</span>
+        <span class="tag concept">Confluence</span>
+        <span class="tag concept">Bitbucket</span>
+        <span class="tag concept">GitHub</span>
+        <span class="tag concept">Node.js</span>
+        <span class="tag concept">TypeScript</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Lance Sigersmith — Built on Raspberry Pi + Nginx</p>
+  </footer>
+
+  <script src="Lance%20Sigersmith_files/main_NIT_.js"></script>
+
+
+</body></html>
