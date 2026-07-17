@@ -55,20 +55,21 @@
 
     <div class="card">
       <h3>Software Engineer I — Stanley Black &amp; Decker</h3>
-      <p><strong>May 2026 – Present</strong> · New Britain, CT</p>
+      <p><strong>May 2026 – Present</strong> · Towson, MD</p>
       <ul>
-        <li>Developed an Android application featuring BLE scanning and real-time data collection from Bluetooth devices.</li>
-        <li>Integrated existing API with Android application to enable cloud data ingestion and authentication.</li>
-        <li>Rapidly acquired Android and Kotlin proficiency by
-leveraging Cursor AI to accelerate development and ship production-ready
- features within 6 months.</li>
+        <li>Architected and developed Tool Connect Gateway, an Android application performing BLE scanning and real-time data collection from Bluetooth devices that integrates with backend service to enable authentication and cloud data ingestion; wrote unit tests to validate core functionality.</li>
+        <li>Resolved bugs and shipped new features across the Tool Connect Android/iOS apps and shared KMP codebase, collaborating across mobile, backend, and QA teams via code review and CI/CD pipelines.</li>
+        <li>Developed an internal Android application enabling Bluetooth tool connection with features such as firmware updates, factory resets, and writing to Bluetooth characteristics, quickly ramping up on Kotlin and Android via Cursor AI.</li>
       </ul>
       <div class="tags">
         <span class="tag lang">Kotlin</span>
         <span class="tag sys">Android</span>
+        <span class="tag sys">iOS</span>
         <span class="tag sys">BLE</span>
         <span class="tag framework">AWS</span>
         <span class="tag framework">Jetpack Compose</span>
+        <span class="tag framework">KMP</span>
+        <span class="tag concept">CI/CD</span>
       </div>
     </div>
 
@@ -173,15 +174,18 @@ toolchains.</li>
       <h3>Rotunda — TypeScript / Kotlin / Android</h3>
       <p>A political intelligence platform ingesting data from 8+
 federal government APIs (Congress.gov, CourtListener, Federal Register,
-roll call feeds) via a fault-tolerant Node.js pipeline, deployed on
-Raspberry Pi with PostgreSQL and Redis. Indexes 20,000+ bills and 500+
-congressional members across two terms. Includes a native Android client
- built with Kotlin and Jetpack Compose that consumes the backend REST
-API with real-time updates.</p>
+roll call feeds) via a fault-tolerant Node.js/TypeScript pipeline using
+BullMQ queues, deployed on Raspberry Pi with PostgreSQL and Redis.
+Indexes 20,000+ bills and 500+ congressional members across two terms,
+using a raw-fetch staging table to reliably handle high-volume,
+unreliable upstream data. Includes a native Android client built with
+Kotlin and Jetpack Compose that consumes the backend REST API with
+real-time updates.</p>
       <div class="tags">
         <span class="tag lang">TypeScript</span>
         <span class="tag lang">Kotlin</span>
         <span class="tag framework">Node.js</span>
+        <span class="tag framework">BullMQ</span>
         <span class="tag framework">Jetpack Compose</span>
         <span class="tag sys">Android</span>
         <span class="tag sys">PostgreSQL</span>
@@ -377,6 +381,8 @@ using algorithmic computational geometry.</p>
         <span class="tag sys">Greengrass</span>
         <span class="tag sys">IoT Core</span>
         <span class="tag sys">S3</span>
+        <span class="tag sys">CloudWatch</span>
+        <span class="tag concept">REST APIs</span>
       </div>
       <p style="margin:0 0 6px; font-weight:600; font-size:0.85rem; opacity:0.6; text-transform:uppercase; letter-spacing:0.08em;">Systems &amp; Protocols</p>
       <div style="margin-bottom:14px;">
@@ -389,6 +395,7 @@ using algorithmic computational geometry.</p>
         <span class="tag sys">TCP</span>
         <span class="tag sys">UDP</span>
         <span class="tag sys">PostgreSQL</span>
+        <span class="tag sys">MySQL</span>
         <span class="tag sys">SQLite</span>
       </div>
       <p style="margin:0 0 6px; font-weight:600; font-size:0.85rem; opacity:0.6; text-transform:uppercase; letter-spacing:0.08em;">Tools</p>
@@ -400,6 +407,8 @@ using algorithmic computational geometry.</p>
         <span class="tag concept">GitHub</span>
         <span class="tag concept">Node.js</span>
         <span class="tag concept">TypeScript</span>
+        <span class="tag concept">CI/CD Pipelines</span>
+        <span class="tag concept">Cursor</span>
       </div>
     </div>
   </div>
