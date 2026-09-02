@@ -20,7 +20,7 @@
   <!-- HERO HEADER -->
   <header>
     <h1>Lance Sigersmith</h1>
-    <p class="subtitle">Software Engineer I @ Stanley Black &amp; Decker | M.S. CS, Quinnipiac University</p>
+    <p class="subtitle">Software Engineer @ Otis Elevator | M.S. CS, Quinnipiac University</p>
     <img src="images/headshot.jpg" class="profile-pic" alt="Profile Photo">
 
     <div class="social-icons" style="margin-top: 10px;">
@@ -42,9 +42,10 @@
   <div class="section" id="about">
     <h2>About Me</h2>
     <div class="card">
-      <p>I'm a Software Engineer at Stanley Black &amp; Decker focused on mobile development, building Android
-        applications for IoT and connected tool ecosystems. I hold a B.S. in Computer Science from UConn
-        and an M.S. in Computer Science from Quinnipiac University (GPA 4.0).
+      <p>I'm a Software Engineer at Otis Elevator on the Compass team. Previously, at Stanley Black &amp; Decker,
+        I built Android applications for IoT and connected tool ecosystems and developed AWS Greengrass
+        components for embedded IoT devices. I hold a B.S. in Computer Science from UConn and an M.S. in
+        Computer Science from Quinnipiac University (GPA 4.0).
         I also contribute to open source, most recently to the Scribe language-learning keyboard project.
       </p>
     </div>
@@ -54,47 +55,72 @@
     <h2>Experience</h2>
 
     <div class="card">
-      <h3>Software Engineer I — Stanley Black &amp; Decker</h3>
-      <p><strong>May 2026 – Present</strong> · Towson, MD</p>
-      <ul>
-        <li>Architected and developed Tool Connect Gateway, an Android application performing BLE scanning and real-time data collection from Bluetooth devices that integrates with backend service to enable authentication and cloud data ingestion; wrote unit tests to validate core functionality.</li>
-        <li>Resolved bugs and shipped new features across the Tool Connect Android/iOS apps and shared KMP codebase, collaborating across mobile, backend, and QA teams via code review and CI/CD pipelines.</li>
-        <li>Developed an internal Android application enabling Bluetooth tool connection with features such as firmware updates, factory resets, and writing to Bluetooth characteristics, quickly ramping up on Kotlin and Android via Cursor AI.</li>
-      </ul>
-      <div class="tags">
-        <span class="tag lang">Kotlin</span>
-        <span class="tag sys">Android</span>
-        <span class="tag sys">iOS</span>
-        <span class="tag sys">BLE</span>
-        <span class="tag framework">AWS</span>
-        <span class="tag framework">Jetpack Compose</span>
-        <span class="tag framework">KMP</span>
-        <span class="tag concept">CI/CD</span>
+      <div class="exp-card">
+        <img src="images/otis.jpg" alt="Otis Elevator Co. logo" class="edu-logo" loading="lazy">
+        <div>
+          <h3>Software Engineer — Otis Elevator Co.</h3>
+          <p><strong>September 2026 – Present</strong> · Farmington, CT</p>
+          <ul>
+            <li>Software engineer on the Compass team, working on elevator dispatching and destination-dispatch systems.</li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div class="card">
-      <h3>Software Engineering Intern — Stanley Black &amp; Decker</h3>
-      <p><strong>June 2025 – May 2026</strong> · New Britain, CT</p>
-      <ul>
-        <li>Evaluated AWS Greengrass Nucleus Lite for integration with
+      <div class="exp-card">
+        <img src="images/sbd.jpg" alt="Stanley Black &amp; Decker logo" class="edu-logo" loading="lazy">
+        <div>
+          <h3>Software Engineer I — Stanley Black &amp; Decker</h3>
+          <p><strong>May 2026 – August 2026</strong> · Towson, MD · Digital Connected Products Team</p>
+          <ul>
+            <li>Architected and developed Tool Connect Gateway, an Android application performing BLE scanning and real-time data collection from Bluetooth devices, integrating with a backend service to enable authentication and cloud data ingestion; wrote unit tests to validate core functionality.</li>
+            <li>Resolved bugs and shipped new features across the Tool Connect Android/iOS apps and shared KMP codebase, collaborating across mobile, backend, and QA teams via code review and CI/CD pipelines.</li>
+            <li>Developed an internal Android application enabling Bluetooth tool connection with firmware updates, factory resets, writing to Bluetooth characteristics, and GATT service exploration, collaborating with the firmware team to implement custom protocols over BLE.</li>
+            <li>Ported the internal Android application to iOS so firmware team members could test and diagnose firmware development on both platforms.</li>
+            <li>Rapidly acquired Android and Kotlin proficiency by leveraging Cursor AI, shipping production-ready features within 6 months.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag lang">Kotlin</span>
+            <span class="tag sys">Android</span>
+            <span class="tag sys">iOS</span>
+            <span class="tag sys">BLE</span>
+            <span class="tag framework">AWS</span>
+            <span class="tag framework">Jetpack Compose</span>
+            <span class="tag framework">KMP</span>
+            <span class="tag concept">CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="exp-card">
+        <img src="images/sbd.png" alt="Stanley Black &amp; Decker logo" class="edu-logo" loading="lazy">
+        <div>
+          <h3>Embedded Software Engineering Intern — Stanley Black &amp; Decker</h3>
+          <p><strong>June 2025 – May 2026</strong> · New Britain, CT · Digital Connected Products Team</p>
+          <ul>
+            <li>Evaluated AWS Greengrass Nucleus Lite for integration with
 existing IoT infrastructure and as a replacement for legacy components.</li>
-        <li>Developed and deployed Greengrass components written in C,
+            <li>Developed and deployed Greengrass components written in C,
 including components with MQTT messaging, OTA A/B updates, and remote
 SSH capability.</li>
-        <li>Assisted with converting legacy MySQL queries into
+            <li>Assisted with converting legacy MySQL queries into
 PostgreSQL-compatible equivalents, resolving schema mismatches and
 updating prepared statements.</li>
-      </ul>
-      <div class="tags">
-        <span class="tag lang">C</span>
-        <span class="tag framework">AWS Greengrass</span>
-        <span class="tag framework">AWS IoT Core</span>
-        <span class="tag sys">Embedded Linux</span>
-        <span class="tag sys">MQTT</span>
-        <span class="tag sys">RAUC</span>
-        <span class="tag sys">SWUpdate</span>
-        <span class="tag sys">Raspberry Pi</span>
+          </ul>
+          <div class="tags">
+            <span class="tag lang">C</span>
+            <span class="tag framework">AWS Greengrass</span>
+            <span class="tag framework">AWS IoT Core</span>
+            <span class="tag sys">Embedded Linux</span>
+            <span class="tag sys">MQTT</span>
+            <span class="tag sys">RAUC</span>
+            <span class="tag sys">SWUpdate</span>
+            <span class="tag sys">Raspberry Pi</span>
+          </div>
+        </div>
       </div>
     </div>
 

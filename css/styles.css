@@ -114,11 +114,16 @@ nav a:hover {
   margin-top: 10px;
 }
 
-.edu-card {
+.edu-card,
+.exp-card {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 16px;
   align-items: start;
+}
+
+.exp-card h3 {
+  margin: 0 0 6px;
 }
 
 .coursework-label {
